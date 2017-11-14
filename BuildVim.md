@@ -1,7 +1,7 @@
 # How to build vim from source
 
 ## Get source code
-`git clone https://github.com/vim/vim/git`
+`git clone https://github.com/vim/vim.git`
 
 ## Install dependencies
 
@@ -23,7 +23,7 @@ lua-devel
         --with-python-config-dir=/usr/lib64/python2.7/config \
         --enable-rubyinterp \
         --with-ruby-command=/usr/bin/ruby \
-        --with-fail-if-missing
+        --enable-fail-if-missing
 ```
 
 ## make
