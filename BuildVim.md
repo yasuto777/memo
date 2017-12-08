@@ -10,6 +10,7 @@ ncurses-devel
 ruby-devel
 python-devel
 lua-devel
+perl-ExtUtils-Embed
 ```
 
 ## configure
